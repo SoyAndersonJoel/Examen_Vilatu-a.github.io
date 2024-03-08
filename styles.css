@@ -6,25 +6,25 @@ body {
 
 header {
     background: linear-gradient(to right, #00FFFF, #0000FF, #FF0000);
-    color: white;
-    padding: 20px 0;
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
 }
 
 .header-content {
     display: flex;
     justify-content: flex-start; /* Cambiado a flex-start */
     align-items: center;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .logo img {
-    height: 100px; /* Cambiado a 100px */
+    height: 120px; /* Cambiado a 100px */
 }
 
 .title {
-    margin-left: 20px; /* Añadido margen */
+    margin-left: 50px; /* Añadido margen */
 }
 
 .title h1 {
@@ -46,9 +46,12 @@ main {
 }
 
 .folder {
-    width: calc(50% - 20px);
+    width: calc(15.44% - 5px); /* Recuadros más angostos */
     margin-right: 20px;
     margin-bottom: 20px;
+    border: 2px solid #ccc; /* Borde del recuadro */
+    overflow: hidden; /* Ocultar contenido que se desborde */
+    position: relative; /* Posicionamiento relativo para el efecto */
 }
 
 .folder a {
@@ -58,7 +61,7 @@ main {
 }
 
 .folder-info {
-    border: 2px solid #00FFFF; /* Añadido borde */
+    border: 2px solid #001aff; /* Añadido borde */
     padding: 10px;
     text-align: center;
     transition: border-color 0.3s ease; /* Efecto de transición */
