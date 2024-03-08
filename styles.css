@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #00FFFF, #0000FF, #FF0000);
+    color: white;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: flex-start; /* Cambiado a flex-start */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 100px; /* Cambiado a 100px */
+}
+
+.title {
+    margin-left: 20px; /* Añadido margen */
+}
+
+.title h1 {
+    font-size: 36px; /* Cambiado a 36px */
+    margin-bottom: 10px; /* Añadido margen inferior */
+}
+
+.title p {
+    font-size: 18px; /* Cambiado a 18px */
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.folder {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.folder a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.folder-info {
+    border: 2px solid #00FFFF; /* Añadido borde */
+    padding: 10px;
+    text-align: center;
+    transition: border-color 0.3s ease; /* Efecto de transición */
+}
+
+.folder-info:hover {
+    border-color: #FF0000; /* Cambia el color del borde al pasar el mouse */
+}
+
+.folder img {
+    width: 100px;
+    height: 100px;
+}
+
+.folder p {
+    font-size: 16px;
+    margin-top: 5px;
+}
