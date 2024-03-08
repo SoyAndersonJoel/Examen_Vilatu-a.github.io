@@ -46,7 +46,7 @@ main {
 }
 
 .folder {
-    width: calc(15.44% - 5px); /* Recuadros más angostos */
+    width: calc(15.43% - 5px); /* Recuadros más angostos */
     margin-right: 20px;
     margin-bottom: 20px;
     border: 2px solid #ccc; /* Borde del recuadro */
